@@ -1,0 +1,28 @@
+{
+  "name": "node-puppeteer-screenshot",
+  "version": "1.0.0",
+  "description": "基于 Puppeteer 的网页截图服务",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "puppeteer": "^24.15.0",
+    "ws": "^8.18.0"
+  },
+  "keywords": [
+    "puppeteer",
+    "screenshot",
+    "websocket",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
